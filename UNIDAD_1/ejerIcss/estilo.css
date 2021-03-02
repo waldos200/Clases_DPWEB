@@ -1,0 +1,101 @@
+body {
+    background: #C0D9D9 url(fondo.gif) repeat;
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#contenedor {
+    text-align: left;
+    width: 700px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+#cabecera {
+    height: 106px;
+    width: 700px;
+}
+
+#navegador {
+    background: #F5F4C3 url(fondonav.gif);
+    padding: 3px 10px 5px 10px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+A.enlacenav,
+A.enlacenav:ACTIVE,
+A.enlacenav:FOCUS,
+A.enlacenav:LINK {
+    color: #494E6B;
+}
+
+A.enlacenav:HOVER {
+    color: #3F7DE3;
+}
+
+#cuerpo {
+    width: 480px;
+    margin-left: 8px;
+    padding: 12px 0px 10px 0px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.titlat {
+    background-color: #84C24B;
+    color: #ffffff;
+    font-size: 7pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 7px 3px 7px 8px;
+    letter-spacing: 1px;
+    margin: 0px 0px 8px 0px;
+}
+
+.cuerpolateral {
+    padding: 5px 4px 13px 10px;
+}
+
+#lateral {
+    width: 200px;
+    background-color: #EBF2FE;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    float: right;
+}
+
+#fbuscar form {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#otras ul {
+    margin: 5px 10px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    list-style: none;
+}
+
+#otras li {
+    padding-left: 14px;
+    background: transparent url("bullet.gif") 0 2px no-repeat;
+    margin-bottom: 10px;
+}
+
+#borde {
+    border: 2px solid #cccccc;
+    text-align: left;
+    width: 700px;
+    margin: auto;
+}
+
+#pie {
+    clear: both;
+    font-size: 7pt;
+    color: #555555;
+    text-align: right;
+    margin: 10px 10px 0px 10px;
+    padding-bottom: 10px;
+}
