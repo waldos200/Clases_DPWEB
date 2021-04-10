@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h2 style="text-align: center">FORMULARIO</h2>
+    <form action="mailto:quantum@mundo21.com" method="POST">
+      <table align="center" border="0">
+        <td align="left" width="100"><b>Direccion e-mail:</b></td>
+        <td align="center" width="150">
+          <input name="nombre" maxlength="25" type="TEXT" value="" />
+        </td>
+        <tr>
+          <td align="left" width="100"><b>Texto del Mensaje:</b></td>
+          <td><textarea name="mensaje" rows="3" cols="20"> </textarea></td>
+        </tr>
+        <tr>
+          <td widht="100"></td>
+          <td align="left" width="150">
+            <input name="boton" type="SUBMIT" value="Enviar" />
+            <select name="notas">
+              <option value="suspenso">Suspenso</option>
+              <option value="aprobado">Aprobado</option>
+              <option value="mdh">Matricula de Honor</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <form align="center" action="notacheckbox">
+      <h3>Elige una nota</h3>
+      <input type="checkbox" name="nota" value="suspenso" />Suspenso
+      <br />
+      <input type="checkbox" name="nota" value="aprobado" />Aprobado
+      <br />
+      <input type="checkbox" name="nota" value="mdh" />Matricula de Honor
+    </form>
+  </body>
+</html>
